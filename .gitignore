@@ -1,1 +1,42 @@
-*.obj
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# 日志文件
+*.log
+
+# 编译生成的文件
+/build/
+/dist/
+/bin/
+/out/
+*.o
+*.a
+*.exe
+*.dll
+*.so
+
+# 依赖文件夹
+/node_modules/
+/.venv/
+/vendor/
+pip-selfcheck.json
+
+# 配置文件
+.env
+config.local.js
+
+# 缓存文件夹
+/.cache/
+/.idea/
+/.vscode/
+
+# 测试报告和覆盖率文件
+/coverage/
+/test-reports/
+
+# 临时文件
+*.tmp
+*.bak    
